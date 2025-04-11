@@ -1,0 +1,97 @@
+
+.nav_adm{
+    display: flex;
+    width: 10%;
+    height: 100vh;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav_adm nav{
+    display: flex;
+    width: 100%;
+    height: 90%;
+    background-color:  var( --color-pri-forte);
+    border-radius: 0px 10px 10px 0px;
+    justify-content: center;
+    gap: 2rem;
+    flex-direction: column;
+}
+
+.container_logo{
+    display: flex;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container_logo img{
+    display: flex;
+    height: 50px;
+}
+
+.nav_adm nav ul{
+    display: flex;
+    height: 80%;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.nav_adm nav ul li{
+    display: flex;
+    width: 80%;
+    background-color: #ffffff;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.nav_adm nav ul li a{
+    display: flex;
+    color:  var( --color-primaria);
+    text-decoration: none;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.nav_adm nav ul li:hover{
+    background-color: transparent;
+}
+
+.nav_adm nav ul li:hover a{
+    color: white;
+}
+.conatiner_logout{
+    display: flex;
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner_logout a{
+    display: flex;
+    color: var(--color-primaria);
+    background-color: white;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    border-radius: 5px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.conatiner_logout a:hover{
+    background-color: #cccccc;
+}

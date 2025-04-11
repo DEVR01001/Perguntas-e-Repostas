@@ -1,0 +1,348 @@
+.form_adm{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 2rem;
+}
+
+
+.container_form_adm{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background-color: var(--color-cinza-claro-leve);
+    padding: 1rem;
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+.container_form_adm2{
+    display: flex;
+    width: 80%;
+    height: 90%;
+    background-color: var(--color-cinza-claro-leve);
+    padding: 1rem;
+    border-radius: 5px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+
+}
+
+
+.container_form_adm3{
+    display: flex;
+    width: 90%;
+    height: 90%;
+    background-color: var(--color-cinza-claro-leve);
+    padding: 1rem;
+    border-radius: 5px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.left_form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+
+
+}
+
+.item_flex_adm{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.item_flex_adm2{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+.item_flex_adm  label,.item_flex_adm2 label{
+    display: flex;
+    font-size: 15px;
+    color: var(--color-cinza-escuro);
+    font-weight: 500;
+    gap: 10px;
+    align-items: center;
+}
+
+
+.item_flex_adm  input, .item_flex_adm2 input{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    outline-color: var(--color-cinza-claro);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: var(--color-cinza-escuro);
+}
+
+.item_flex_adm  select, .item_flex_adm2 select{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    outline-color: var(--color-cinza-claro);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: var(--color-cinza-escuro);
+}
+.item_flex_adm  textarea, .item_flex_adm2 textarea{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    outline-color: var(--color-cinza-claro);
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    color: var(--color-cinza-escuro);
+}
+
+
+
+
+.item_flex_adm  .container_btn_open_tema{
+    display: flex;
+    width: 100%;
+    border-radius: 5px;
+    height: 40px;
+    background-color: var(--color-cinza-claro-leve) ;
+    flex-direction: column;
+}
+
+.right_form{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    height: 100%;
+    
+}
+
+
+.conatiner_btn_adm{
+    display: flex;
+    justify-content: end;
+    margin-top: 2rem;
+    gap: 2rem;
+    width: 90%;
+}
+
+
+.conatiner_btn_adm button:nth-child(1){
+    display: flex;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color-btn-red);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.conatiner_btn_adm button:nth-child(2){
+    display: flex;
+    width: 130px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--color-btn-green);
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+.conatiner_btn_adm button:nth-child(1):hover{
+    background-color: rgb(150, 11, 11);
+}
+
+.conatiner_btn_adm button:nth-child(2):hover{
+    background-color: rgb(13, 150, 11);
+}
+
+
+
+
+.conatiner_escolha{
+    display: flex;
+    gap: 1rem;
+}
+
+.conatiner_escolha input{
+    width: 20px;
+    height: 20px;
+}
+
+.item_center{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    font-weight: 500;
+    color: var(--color-cinza-escuro);
+}
+
+
+.item_flex_adm label a{
+    display: flex;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: var(--color-pri-leve) ;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    color:  var(--color-primaria) ;
+    transition: all 0.2s ease-in-out;
+    
+
+}
+
+.item_flex_adm label a:hover{
+    background-color: var(--color-cinza-claro);
+    cursor: pointer;
+    color: var(--color-cinza-escuro);
+}
+
+.container_btn_open_tema{
+    display: flex;
+    width: 100%;
+}
+
+.open_drop_tema{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    align-items: center;
+    gap: 10px;
+    justify-content: end;
+    color: var(--color-cinza-escuro);
+    cursor: pointer;
+
+
+}
+
+
+
+.conatiner_item_tema{
+    position: relative;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+
+    height: 100%;
+
+}
+
+
+.conatiner_body_tema p{
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    color: var(--color-cinza-escuro);
+    font-weight: 500;
+}
+
+
+.conatiner_body_tema{
+    display:flex;
+    background-color: rgb(255, 255, 255);
+    height: 0%;
+    opacity: 0;
+    flex-wrap: wrap;
+    gap: 2rem;
+    border-radius: 5px;
+    padding: 1rem;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+
+
+
+
+}
+
+.conatiner_body_tema  .item_tema{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    color: var(--color-cinza-escuro);
+
+}
+
+.item_tema input{
+    width: 20px;
+    height: 20px;
+}
+
+
+.active_tema{
+    display: flex;
+    height: 100%;
+    opacity: 1;
+    overflow: hidden;
+    position:static;
+    visibility: visible;
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+
+
+}
+
+#icon{
+    display: flex;
+    transition: all 0.3s ease;
+
+}
+
+
+.conatiner_body_tema .active_tema #icon{
+    transform: rotate(45deg);
+}

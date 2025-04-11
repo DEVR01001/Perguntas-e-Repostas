@@ -1,0 +1,138 @@
+.questionario{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.conatiner_questionario{
+    margin-top: 2em;
+    display: flex;
+    width: 90%;
+    padding: 1rem;
+    flex-direction: column;
+    background-color: var(--color-cinza-claro-leve);
+    border-radius: 5px;
+    gap: 2rem;
+
+}
+
+.tite_pergunta{
+    display: flex;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--color-cinza-escuro);
+}
+
+.enunciado{
+    display: flex;
+    padding: 1rem;
+    background-color: white;
+    border-radius: 5px;
+    color: var(--color-cinza-escuro);
+
+}
+
+.item_pergunta{
+    display: flex;
+    width: 100%;
+    gap: 1rem;
+    font-weight: 400;
+    color: var(--color-cinza-escuro);
+
+}
+
+.item_pergunta input{
+    width: 30px;
+}
+
+.conatiner_btn_ques, .conatiner_btn_ques2, .conatiner_btn_ques3{
+    display: flex;
+    width: 90%;
+    justify-content: end;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.conatiner_btn_ques button{
+    display: flex;
+    width: 20%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: var(--color-btn-green);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+}
+
+.conatiner_btn_ques button:hover{
+    background-color: rgb(64, 206, 64);
+}
+
+.conatiner_btn_ques2 p{
+    display: flex;
+    font-size: 17px;
+}
+
+
+
+.conatiner_btn_ques2 button{
+    display: flex;
+    width: 20%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: var(--color-cinza-escuro);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    transition: all 0.2s ease;
+    
+
+}
+
+.conatiner_btn_ques2 button:hover{
+    background-color: rgb(95, 95, 95);
+}
+
+.conatiner_btn_ques3 button{
+    display: flex;
+    width: 30%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    background-color: var(--color-primaria);
+    color: white;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    font-size: 20px;
+    border-radius: 5px;
+    gap: 1rem;
+    transition: all 0.2s ease;
+    
+
+}
+
+.conatiner_btn_ques3 button:hover{
+    background-color: var(--color-pri-leve);
+    color: var(--color-primaria);
+
+}

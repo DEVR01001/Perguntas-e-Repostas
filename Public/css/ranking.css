@@ -1,0 +1,113 @@
+.title_ranking{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.conatiner_title_ranking{
+    display: flex;
+    width: 50%;
+    padding: 1rem;
+    background-color: var(--color-pri-leve);
+    border-radius: 0px 0px 10px 10px;
+
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    color: var(--color-primaria);
+
+}
+
+
+.container_voltar{
+    display: flex;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+.container_voltar a{
+    display: flex;
+    width: 30%;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-cinza-claro-leve);
+    border-radius: 5px;
+    gap: 10px;
+    text-decoration: none;
+    color: var(--color-cinza-escuro);
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+}
+
+.container_voltar a:hover{
+    background-color: rgb(227, 227, 227);
+}
+
+.conatiner_table_ranking{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+.list_table{
+    display: flex;
+    width: 86%;
+    padding: 2rem;
+    border-radius: 5px;
+    background-color: var(--color-cinza-claro-leve);
+}
+
+.list_table table{
+    width: 100%;
+    border-collapse: collapse;
+}
+.list_table table td, .list_table table th {
+    text-align: center;
+}
+
+.list_table table th {
+    padding-bottom: 1rem;
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--color-cinza-escuro);
+}
+
+.list_table table td{
+    padding-top: 1rem;
+    font-size: 17px;
+    font-weight: 500;
+
+}
+
+
+.list_table table td img{
+    display: flex;
+    object-fit: cover;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+
+.list_table .conatiner_td{
+    background-color: var(--color-secudaria);
+    border-radius: 5px;
+    color: var(--color-se-forte);
+    padding: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    justify-self: center;
+    font-weight: 600;
+
+}
+
+
+

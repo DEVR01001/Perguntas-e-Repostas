@@ -1,0 +1,72 @@
+.navuser{
+    display: flex;
+    width: 100%;
+
+}
+
+.navuser nav{
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: var(--color-pri-forte);
+}
+
+.navuser nav ul{
+    display: flex;
+    width: 90%;
+    gap: 2rem;
+    align-items: center;
+    padding-left: 4rem;
+
+}
+
+.navuser nav ul li{
+    display: flex;
+    list-style: none;
+}
+
+.navuser nav ul li a{
+    color: var(--color-pri-leve);
+    text-decoration: none;
+    gap: 1rem;
+    transition: all 0.2s ease;
+    display: flex;
+}
+
+
+.navuser nav ul li a:hover{
+    color: white;
+    font-weight: 500;
+}
+.conatiner_logo{
+    display: flex;
+    width: 10%;
+    align-items: center;
+    padding-left: 2rem;
+}
+
+.conatiner_logo img{
+    display: flex;
+    height: 60px;
+}
+
+
+
+.nav_mobile{
+    display: none;
+}
+
+@media (max-width:768px) {
+    
+.nav_mobile{
+    display: flex;
+    width: 100%;
+    height: 40px;
+    background-color: aqua;
+
+}
+.navuser nav{
+    display: none;
+}
+    
+}

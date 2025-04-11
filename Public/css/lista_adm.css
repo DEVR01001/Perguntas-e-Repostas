@@ -1,0 +1,231 @@
+.section_title{
+    display: flex;
+    background-color: var(--color-primaria);
+    width: 100%;
+    padding: 2rem;
+    border-radius: 0px 0px 10px 10px;
+
+}
+
+
+.container_title{
+    display: flex;
+    display: flex;
+    gap: 1rem;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    font-weight: 600;
+
+    width: 50%;
+
+}
+
+.container_title i{
+    font-size: 18px;
+    transition: all 0.2s ease;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container_title i:hover{
+    background-color: rgb(241, 241, 241);
+    color: var(--color-primaria);
+}
+
+
+.container_pesquisa{
+    display: flex;
+    width: 100%;
+    margin-top: 2rem;
+ 
+    justify-content: center;
+    align-items: end;
+
+}
+
+
+.container_pesquisa .container_left_pesquisa{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.container_left_pesquisa input{
+    display: flex;
+    width: 80%;
+    height: 40px;
+    border-radius: 5px;
+    outline-color: rgb(186, 186, 186);
+    background-color: rgb(249, 249, 249);
+    border: none;
+    padding: 10px;
+
+}
+
+
+.container_left_pesquisa button{
+    display: flex;
+    height: 40px;
+    width: 80px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-cinza-escuro);
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+
+
+
+.container_pesquisa .container_right_pesquisa{
+    width: 50%;
+    display: flex;
+    justify-content:end;
+    align-items: end;
+    gap: 3rem;
+}
+
+.container_pesquisa .container_right_pesquisa a{
+    display: flex;
+    width: 30%;
+    height: 40px;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-pri-leve);
+    text-decoration: none;
+    color: var(--color-primaria);
+    font-weight: 500;
+    font-size: 17px;
+
+}
+
+.container_pesquisa .container_right_pesquisa .item_flex{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    width: 30%;
+  
+}
+
+
+
+
+
+
+.container_pesquisa .container_right_pesquisa .item_flex label{
+    color: var(--color-cinza-escuro);
+    font-weight: 400;
+    display: flex;
+    font-size: 15px;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.container_pesquisa .container_right_pesquisa .item_flex select{
+    display: flex;
+    width: 100%;
+    background-color: 5px;
+    border: none;
+    border-radius: 5px;
+    padding-left: 10px;
+    outline: none;
+
+    background-color: var(--color-secudaria);
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    font-size: 17px;
+    color: var(--color-se-forte);
+    font-weight: 500;
+}
+.container_pesquisa .container_right_pesquisa .item_flex option{
+    background-color: white;
+    color: var(--color-cinza-escuro);
+}
+
+
+.lista_adm{
+    display: flex;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color:var(--color-cinza-claro-leve);
+    border-radius: 5px;
+}
+
+.lista_adm table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+
+.lista_adm table th, .lista_adm table td{
+    text-align: center;
+}
+
+.lista_adm table th{
+    padding-bottom: 1rem;
+    color: var(--color-cinza-escuro);
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.lista_adm table td{
+    font-weight: 500;
+    color: var(--color-cinza-escuro);
+    font-size: 14px;
+}
+
+.td-teste{
+    width: 10%;
+}
+.td-teste2{
+    width: 20%;
+}
+
+.container_acoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.container_acoes a{
+    display: flex;
+    width: 30px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+
+}
+
+.container_acoes a:hover{
+    background-color: rgb(233, 233, 233);
+}
+
+.container_acoes a i{
+    font-size: 16px;
+}
+
+.container_acoes .fa-pencil{
+    display: flex;
+    color: var(--color-cinza-escuro);
+}
+.container_acoes .fa-trash{
+    display: flex;
+    color: var(--color-btn-red);
+}
